@@ -17,7 +17,7 @@ def computerGuess(x):
     low = 1
     high = x
     feedback = ''
-    print("Choose a number between 1 and 1000, keep it to yourself")
+    print(f"Choose a number between 1 and {x}, keep it to yourself")
     while feedback != 'c':
         if low != high:
             guess = random.randint(low, high)
